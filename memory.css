@@ -1,8 +1,21 @@
-.github,
-.linkedin {
-  text-decoration: none;
+.container {
+  background-color: aqua;
 }
 
 h1 {
   color: red;
+  text-align: center;
+}
+
+/* width and height = 4 blocks across and 3 blocks tall (each png is 100x100)*/
+.grid {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 30px;
+  background-color: black;
+}
+
+.github,
+.linkedin {
+  text-decoration: none;
 }
