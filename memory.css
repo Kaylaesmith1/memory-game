@@ -1,9 +1,9 @@
 .container {
-  background-color: aqua;
+  text-align: center;
 }
 
-h1 {
-  color: red;
+.h1 {
+  color: black;
   text-align: center;
 }
 
@@ -12,7 +12,10 @@ h1 {
   width: 400px;
   height: 300px;
   margin-bottom: 30px;
-  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-left: 450px;
 }
 
 .github,
